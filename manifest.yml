@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: aplicacao-de-teste-erik
+  host: aplicacao-de-teste-erik
+  disk_quota: 1024M
+  services:
+  - aplicacao-de-teste-erik-AdvancedMobileAccess
+  - aplicacao-de-teste-erik-imfpush
+  - aplicacao-de-teste-erik-cloudantNoSQLDB
